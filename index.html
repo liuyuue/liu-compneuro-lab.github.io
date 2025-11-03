@@ -145,6 +145,15 @@
       nav { display: none; }
       .hero { height: 280px; }
     }
+    .headshot {
+      width: 140px;        /* controls visual size */
+      height: 140px;       /* make same as width for a circle */
+      border-radius: 50%;  /* circular crop */
+      object-fit: cover;   /* keeps face centered, no distortion */
+      display: block;
+      margin: 0 auto 0.8rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
   </style>
 </head>
 <body>
